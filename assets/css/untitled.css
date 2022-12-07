@@ -1,0 +1,92 @@
+body {
+  background-color: var(--bs-gray-900);
+}
+
+.gradient {
+  background: linear-gradient(120deg, #328f5d, #212529);
+}
+
+.portfolio-navbar.gradient {
+  font-family: monospace;
+}
+
+.portfolio-block .block-intro .avatar {
+  width: 400px;
+  height: 400px;
+}
+
+p {
+  font-family: monospace;
+}
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+.intro-text {
+  font-family: monospace;
+}
+
+.intro-text {
+  padding-right: 3px;
+  display: inline-block;
+}
+
+.intro-text:after {
+  content: '';
+  width: 8px;
+  height: 22px;
+  margin-left: 2px;
+  margin-bottom: -1px;
+  background: white;
+  opacity: 0;
+  display: inline-block;
+  animation: blink 1s linear infinite alternate;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.portfolio-block.website.gradient {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.portfolio-block.website.gradient {
+  margin-block-start: 15px;
+}
+
+h3 {
+  font-family: monospace;
+}
+
+.div-title {
+  padding-top: 15px;
+}
+
+.portfolio-others {
+  background: var(--bs-gray-800);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-block-start: 15px;
+}
+
+footer {
+  padding-top: 20px;
+}
+
+.btn-portfolio {
+  margin-block-start: 10px;
+}
+
